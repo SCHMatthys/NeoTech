@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(3, 44, 76);
+    padding-left: 10%;
+    @include flex;
+
+    li{
+        display: inline;
+    }
+
+    a{
+        color: white;
+        text-transform: uppercase;
+        padding-right: 16px;
+    }
+
+    div{
+        display: inline;
+        padding-right: 16px 32px;
+    }
+
+    img{
+        margin: 16px;
+    }
+}
+
+section{
+    img{
+        width: 40%;
+    }
+}
